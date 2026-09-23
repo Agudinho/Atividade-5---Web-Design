@@ -29,6 +29,11 @@
 
 <body>
 
+    <!-- Link de acessibilidade para facilitar a navegação por teclado -->
+    <a class="skip-link" href="#conteudo-principal">
+        Pular para o conteúdo principal
+    </a>
+
     <!-- Cabeçalho principal do site -->
     <header>
 
@@ -36,7 +41,7 @@
         <h1>Café Aurora</h1>
 
         <!-- Menu de navegação principal -->
-        <nav>
+        <nav aria-label="Navegação Principal">
             <a href="#inicio">Início</a>
             <a href="#sobre">Sobre</a>
             <a href="#destaques">Destaques</a>
@@ -48,7 +53,7 @@
     </header>
 
     <!-- Conteúdo principal da página -->
-    <main>
+    <main id="conteudo-principal">
 
         <!-- Seção inicial -->
         <section id="inicio">

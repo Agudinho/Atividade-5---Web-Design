@@ -389,3 +389,19 @@ footer p {
 .destaques-container h3 {
     color: #5a3825;
 }
+
+/* Link de acessibilidade */
+.skip-link {
+    position: absolute;
+    top: -50px;
+    left: 10px;
+    background-color: #5a3825;
+    color: #ffffff;
+    padding: 10px 15px;
+    z-index: 1000;
+}
+
+/* Mostra o link quando ele recebe foco pelo teclado */
+.skip-link:focus {
+    top: 10px;
+}
